@@ -1,0 +1,29 @@
+body{
+  padding: 0;
+  margin: 0;
+  background-image: url('backaqua.png');
+  background-size: cover;
+  height: 100vh;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+section,header{
+  text-align: center;
+}
+
+#send-mail{
+  padding: 5px 30px;
+  cursor: pointer;
+  background-color: lightgrey;
+  border: 2px solid lightgrey;
+  color: #0B435A;
+  font-weight: bold;
+  transition: transform .3s ease-in-out;
+}
+#send-mail:hover{
+  transition: transform .3s ease-in-out;
+  transform: scale(1.2);
+}
